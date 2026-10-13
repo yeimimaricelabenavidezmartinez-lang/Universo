@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Universo 🌌</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="stars"></div>
+
+    <header>
+        <h1>🌌 EL UNIVERSO</h1>
+        <p>Explora nuestro Sistema Solar y descubre J1407b</p>
+    </header>
+
+    <main id="space">
+
+        <!-- SOL -->
+        <div class="sun" data-name="☀️ Sol"
+             data-info="El Sol es la estrella en el centro de nuestro Sistema Solar.">
+        </div>
+
+        <!-- ÓRBITAS -->
+        <div class="orbit orbit1"></div>
+        <div class="orbit orbit2"></div>
+        <div class="orbit orbit3"></div>
+        <div class="orbit orbit4"></div>
+        <div class="orbit orbit5"></div>
+        <div class="orbit orbit6"></div>
+        <div class="orbit orbit7"></div>
+        <div class="orbit orbit8"></div>
+
+        <!-- PLANETAS -->
+        <div class="planet mercury" data-name="☿ Mercurio"
+             data-info="El planeta más cercano al Sol."></div>
+
+        <div class="planet venus" data-name="♀ Venus"
+             data-info="El planeta más caliente del Sistema Solar."></div>
+
+        <div class="planet earth" data-name="🌎 Tierra"
+             data-info="Nuestro planeta y hogar."></div>
+
+        <div class="planet mars" data-name="♂ Marte"
+             data-info="El planeta rojo."></div>
+
+        <div class="planet jupiter" data-name="♃ Júpiter"
+             data-info="El planeta más grande del Sistema Solar."></div>
+
+        <div class="planet saturn" data-name="♄ Saturno"
+             data-info="Gigante gaseoso famoso por sus anillos.">
+            <div class="saturn-ring"></div>
+        </div>
+
+        <div class="planet uranus" data-name="♅ Urano"
+             data-info="Un gigante helado con una inclinación extrema."></div>
+
+        <div class="planet neptune" data-name="♆ Neptuno"
+             data-info="El planeta más lejano del Sol."></div>
+
+        <!-- J1407B -->
+        <div class="j1407b" data-name="🟣 J1407b"
+             data-info="Un exoplaneta candidato conocido por su enorme sistema de anillos.">
+            <div class="j-ring ring-a"></div>
+            <div class="j-ring ring-b"></div>
+            <div class="j-ring ring-c"></div>
+            <div class="j-ring ring-d"></div>
+            <div class="j-ring ring-e"></div>
+        </div>
+
+    </main>
+
+    <!-- INFORMACIÓN -->
+    <div id="infoBox">
+        <button id="close">✕</button>
+        <h2 id="infoTitle"></h2>
+        <p id="infoText"></p>
+    </div>
+
+    <div class="instructions">
+        👆 Toca un planeta para conocerlo
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
